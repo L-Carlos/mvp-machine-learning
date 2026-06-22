@@ -42,12 +42,7 @@ def consolidar_arquivos(zip_path: str, out_path: str):
                             low_memory=False,
                             # alguns campos causam erro no parquet se deixados como objects
                             # depois serao tratados corretamente na etapa de modelagem
-                            dtype={
-                                "br": float,
-                                "km": str,
-                                "latitude": str,
-                                "longitude": str,
-                            },
+                            dtype={"km": str, "latitude": str, "longitude": str},
                             na_values=["(null)", "null", "NULL", "N/D", "N/A#"],
                         )
                         dfs.append(temp_df)
