@@ -8,6 +8,7 @@ dependencies = [
     "catboost>=1.2.10",
     "category-encoders>=2.9.0",
     "holidays>=0.99",
+    "joblib>=1.5.3",
     "jupyter>=1.1.1",
     "lightgbm>=4.6.0",
     "matplotlib>=3.11.0",
