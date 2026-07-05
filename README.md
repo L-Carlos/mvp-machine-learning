@@ -16,7 +16,12 @@ A ideia é que o modelo classifique sem saber ainda exatamente o que ocorreu, co
 
 Além das informações básicas como horário, data, localização, o dataset utilizado possui informações como causa e quantidade de vitimas, que são preenchidas posteriormente durante o registro da ocorrência, essas e outras variaveis posteriores não serão utilizada no modelo,   justamente porque o modelo seria utilizando antes desse tipo de informação estar disponível.
 
+## Link para o Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/L-Carlos/mvp-machine-learning/blob/master/mvp_ml_analytics_2026.ipynb)
+
 ## Sobre o Dataset
 
 Os dados que serão utilizados são provenientes do [Portal Brasileiro de Dados Abertos](https://dados.gov.br/home), no dataset [SINISTROS DE TRÂNSITO - PRF](https://dados.gov.br/dados/conjuntos-dados/sinistros-de-transito-agrupados-por-ocorrencia).
 Os dados originais são armazenados em um [google drive](https://drive.google.com/drive/folders/1eI64p7H7LRc-wWDnwjIdYmYbWurMbwbT) em subpastas com um csv para cada ano. O arquivo zip com todos os anos foi salvo em `./raw_data/dados_prf.zip`, e o script `./consolidar_arquivos.py` junta todos os zips e subpastas em um único arquivo `./data/dados_prf.parquet`, para facilitar a leitura no projeto.
+
