@@ -1,10 +1,10 @@
 ### MVP - Machine Learning & Analytics PUC RJ
 
-**Nome:** Luis Carlos Firmino Pinheiro
-**Matrícula:** 4052026000838
-**Data:** 13/06/2026
-**Dataset:** [SINISTROS DE TRÂNSITO - PRF](https://dados.gov.br/dados/conjuntos-dados/sinistros-de-transito-agrupados-por-ocorrencia)
-**Tipo de problema:** Classificação
+**Nome:** Luis Carlos Firmino Pinheiro  
+**Matrícula:** 4052026000838  
+**Data:** 13/06/2026  
+**Dataset:** [SINISTROS DE TRÂNSITO - PRF](https://dados.gov.br/dados/conjuntos-dados/sinistros-de-transito-agrupados-por-ocorrencia)  
+**Tipo de problema:** Classificação  
 
 # Modelo de classificação de acidentes de trânsito em rodovias brasileiras
 
