@@ -6,13 +6,13 @@
 **Dataset:** [SINISTROS DE TRÂNSITO - PRF](https://dados.gov.br/dados/conjuntos-dados/sinistros-de-transito-agrupados-por-ocorrencia)
 **Tipo de problema:** Classificação
 
-# Modelo de classificação de acidentes de trânsito em rodovias brasileiras (WIP)
+# Modelo de classificação de acidentes de trânsito em rodovias brasileiras
 
 ![header](image/README/header.jpg)
 
 ### O objetivo desse estudo, é a criação de um modelo que atue com base em informações escassas disponiveis no momento de uma ocorência, para determinar a gravidade e dimensionar a resposta adequada.
 
-A ideia é que o modelo classifique sem saber ainda exatamente o que ocorreu, como uma espécie de *"Early Warning System"*, que poderia atuar com fontes de deteccão de ocorrência como sensores de pista, cameras, ou descrição de testemunhas que passaram pelo local.
+A ideia é que o modelo classifique sem saber ainda exatamente o que ocorreu, como uma espécie de *sistema de triagem*, que poderia atuar com fontes de deteccão de ocorrência como sensores de pista, cameras, ou descrição de testemunhas que passaram pelo local.
 
 Além das informações básicas como horário, data, localização, o dataset utilizado possui informações como causa e quantidade de vitimas, que são preenchidas posteriormente durante o registro da ocorrência, essas e outras variaveis posteriores não serão utilizada no modelo,   justamente porque o modelo seria utilizando antes desse tipo de informação estar disponível.
 
